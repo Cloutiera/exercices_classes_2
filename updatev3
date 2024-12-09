@@ -35,6 +35,7 @@ class Npc:
         self.profession = profession
 
     def afficher_caracteristiques(self):
+
         print(f"La valeur de la force est {self.force}")
         print(f"La valeur de l'agilité est {self.agilite}")
         print(f"La valeur de la constitution est {self.constitution}")
